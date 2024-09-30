@@ -1,9 +1,10 @@
 .parallax-hero {
     div {
-        position: relarive;
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 50vw;
+        overflow: hidden;
         div:last-child > picture > img {
             width: 100vw;
         }
