@@ -1,9 +1,17 @@
 export default function decolate( block ) {
-    var title = block.querySelector(':scope > div > div > *');
-    console.log("title elem");
-    console.log(title);
-    title.classList.add('rellax');
-    title.setAttribute("data-rellax-speed","1");
+    // var title = block.querySelector(':scope > div > div > *');
+    // console.log("title elem");
+    // console.log(title);
+    // title.classList.add('rellax');
+    // title.setAttribute("data-rellax-speed","1");
+
+    var text_elms = block.querySelector(':scope > div > div');
+    [...text_elms.children].forEach((elm) => {
+        console.log("elem:");
+        console.log(elm);
+        elm.classList.add('rellax');
+        elm.setAttribute("data-rellax-speed","1");            
+    });
 }
 
 // 外部スクリプトを読み込む関数

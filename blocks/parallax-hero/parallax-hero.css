@@ -9,6 +9,7 @@
             width: 100vw;
         }
         div:first-child {
+            flex-direction: column;
             color: white;
             text-shadow: black 1px 0 10px;
 
