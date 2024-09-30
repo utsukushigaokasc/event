@@ -1,5 +1,7 @@
 export default function decolate( block ) {
     var title = block.querySelector(':scope > div > div > div > div:first-child  > *');
+    console.log("title elem");
+    console.log(title);
     title.classList.add('rellax');
     title.setAttribute("data-rellax-speed","1");
 }
