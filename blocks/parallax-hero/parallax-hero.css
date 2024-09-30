@@ -18,7 +18,8 @@
             left:0px;
             right: 0px;
 
-            padding: 10vw;
+            padding-left: 10vw;
+            padding-right: 10vw;
 
             * {
                 font-size: 10vw!important;
