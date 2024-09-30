@@ -1,7 +1,3 @@
-.parallax-hero-wrapper {
-    width: 100vw!important;
-}
-
 .parallax-hero {
     div {
         display: flex;
@@ -22,9 +18,6 @@
             position: absolute;
             left:0px;
             right: 0px;
-            max-width: 1200px;
-            margin: auto;
-            padding: 60px;
 
             * {
                 display: flex;
