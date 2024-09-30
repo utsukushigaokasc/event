@@ -8,7 +8,8 @@
             width: 100vw;
         }
         div:first-child {
-            color: gray;
+            color: white;
+            text-shadow: black 1px 0 10px;
             font-size: 26px;
             font-weight: bold;
             position: absolute;
