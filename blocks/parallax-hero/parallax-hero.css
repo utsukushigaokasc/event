@@ -4,12 +4,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        div:last-child {
+        div:last-child > picture > img {
             width: 100vw;
         }
         div:first-child {
             color: white;
             text-shadow: black 1px 0 10px;
+
             font-size: 26px;
             font-weight: bold;
             position: absolute;
