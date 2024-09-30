@@ -3,7 +3,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 50vw;
+        height: 50vh;
         overflow: hidden;
         div:last-child > picture > img {
             width: 100vw;
