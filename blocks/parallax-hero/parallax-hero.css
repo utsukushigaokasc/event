@@ -13,7 +13,6 @@
             color: white;
             text-shadow: black 1px 0 10px;
 
-            font-size: 10vw;
             font-weight: bold;
             position: absolute;
             left:0px;
@@ -22,6 +21,7 @@
             padding: 60px;
 
             * {
+                font-size: 10vw!important;
                 display: flex;
                 justify-content: center;
                 align-items: center;
