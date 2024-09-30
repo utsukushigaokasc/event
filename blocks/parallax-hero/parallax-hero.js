@@ -1,5 +1,5 @@
 export default function decolate( block ) {
-    var title = block.querySelector(':scope > div > div > div ');
+    var title = block.querySelector(':scope > div > div');
     console.log("title elem");
     console.log(title);
     title.classList.add('rellax');
