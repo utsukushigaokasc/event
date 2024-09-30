@@ -1,0 +1,25 @@
+.parallax-hero {
+    div {
+        position: relarive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div:last-child {
+            width: 100vw;
+        }
+        div:first-child {
+            color: gray;
+            font-size: 26px;
+            font-weight: bold;
+            position: absolute;
+            left:0px;
+            right: 0px;
+            * {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+}
