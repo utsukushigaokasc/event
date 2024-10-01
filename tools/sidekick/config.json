@@ -7,23 +7,10 @@
             "environments": [
             "edit"
             ],
-            "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
+            "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false?extConfigUrl=https://peta-note.com/ext/eds/config.json",
             "isPalette": true,
             "includePaths": [ "**.docx**" ],
             "passConfig": true,
-            "filterSchema": [ 
-                { 
-                    "header": "Assets Tags", 
-                    "groupKey": "AssetTagsGroup", 
-                    "fields": [ 
-                        { 
-                            "element": "taggroup", 
-                            "name": "property=metadata.application.xcm:keywords.id", 
-                            "columns": 3 
-                        } 
-                    ] 
-                } 
-            ] ,
             "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; min-width:500px; max-width:40vw; height: calc(100vh - 60px)"
         }
     ]
