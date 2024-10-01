@@ -7,7 +7,7 @@
             "environments": [
             "edit"
             ],
-            "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false?extConfigUrl=https://peta-note.com/ext/eds/config.json",
+            "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
             "isPalette": true,
             "includePaths": [ "**.docx**" ],
             "passConfig": true,
